@@ -22,6 +22,9 @@ if height >= 120:
     # Only runs if first if not true
         bill = 7
         print("Please pay £7.")
+    elif age >= 45 and age <= 55:
+    # This will skip the else
+        print("Everything is going to be ok. Havre a free ride!")
     else:
     # Runs if both if and elif aren't true
         bill = 12
