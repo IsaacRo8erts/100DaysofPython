@@ -13,13 +13,11 @@ print(states_of_america[-1])
 states_of_america.append("New Jersey")
 # Adds new item to end of list
 
-states_of_america.extend(["Georgia", "Connecticut", "Massachusetts"])
+states_of_america.extend(["Georgia", "Connecticut", "Massachusetts", "Maryland"])
 # Allows you to add a list to end of list
 
 # Other functions: insert(i,x), remove(x), pop([i])
 
-print(states_of_america)
-
-states_of_america[len(states_of_america):] = "Ben"
+# states_of_america[len(states_of_america)] = "Ben"
 # Adds B e n as seperate values to end of list
 print(states_of_america)
