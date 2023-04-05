@@ -1,5 +1,3 @@
-# Loops
-
 # For Loop
 
 fruits = ["Apple", "Peach", "Pear"]
